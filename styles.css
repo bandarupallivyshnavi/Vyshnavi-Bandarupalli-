@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f9f9f9, #f4f4f4);
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #d3e0dc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #e3f2fd;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4a4a4a;
+}
+
+header p {
+    margin: 5px 0;
+    color: #607d8b;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f3e5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    border-bottom: 2px solid #d3e0dc;
+    padding-bottom: 5px;
+    color: #4a4a4a;
+}
+
+.education, .project {
+    margin-bottom: 20px;
+}
+
+.education h3, .project h3 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #4a4a4a;
+}
+
+.education p, .project p {
+    margin: 5px 0;
+    color: #607d8b;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
